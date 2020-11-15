@@ -1,0 +1,52 @@
+body {background: linear-gradient(to left, #2dfdd4,#223bc3);
+    text-align:center;}
+    h1{
+      font-family:fantasy;
+      font-size: 30px;
+      color: red;
+    }
+    label{display:block;
+      font-size:20px;
+      position:relative;
+     }
+    form{background: gray;
+    color: black;
+    width:500px;
+    height:750px;
+    color: white;
+      position:relative;left:500px;
+    background: rgba(0,0,0,.7);
+    }
+    input{width:40%;
+    border-radius:10px;
+    outline:none;}
+    .comentarios textarea{
+      width:50%;
+      height:100px;
+      outline:none;
+    }
+    
+    
+    .formulario select{
+      width:30%;
+         
+    
+    }
+    p{font-size:20px}
+    
+    button{
+      background:white;
+      color:black;
+        border-radius:10px;
+      width:100px;
+      height:40px;
+      position:relative;top:22px;
+      font-size:18px;
+       outline:none;
+        
+    }
+    button:hover{
+    background-color:#03FAEF;
+    }
+    .formulario .radio input{
+      position:relative;bottom:22px;position : relative;left:65px}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="title" >ENCUESTA</h1>
+        <p id="description" >
+    La siguiente es una encuesta para medir el nivel de estudio de los habitantes de nuestra ciudad de acuerdo a su sexo,edad, y estrato socio económico.<br>
+      <h3>por favor responda nuestras preguntas:</h3>
+        </p>
+      </header>
+    <div class= "formulario">
+      <form action="" id= "encuesta">
+        <label for > Nombre</label>
+     <input type= text placeholder="Nombre" required>
+       <label for > Apellidos</label>
+     <input type= text placeholder="Apellidos" required>
+     <label for > Fecha de nacimiento:</label>
+     <input type= "date" required>
+        <div class=radio>
+        <p>Género:</P>
+     
+        <label for ="masculino"> Masculino</label> 
+     <input  type="radio"name="sexo"id= "masculino" value="masculino">
+       <label for ="femenino"> Femenino</label>    
+    <input type="radio"name="sexo" value="femenino" id = "femenino"> 
+      
+      </div>
+     <label for > nivel de estudio:</label>
+      <select name="estudios" required>
+        <option value="1">ninguno</option>
+         <option value="2">primaría</option>
+         <option value="3">bachiller</option>
+         <option value="4">técnico</option>
+         <option value="5">tecnólogo</option>
+         <option value="6">universitario</option>
+        <option value="7">otro</option>
+        </select>
+       <label for > Ocupación</label>
+     <input type= "text" placeholder="Ocupación" required>
+          <label for> Estrato</label>
+     <input type="number" min= "0" required>
+          <label for > Email</label>
+     <input type= "email" placeholder="Email" required><br>
+        <div class="comentarios">
+          <p>comentarios</p>
+          <textarea
+            placeholder="dejanos un comentario o sugerencia"
+          ></textarea>
+        </div>
+        <button type= "submit" onclick= "alert('Gracias por tú tiempo y disposición');">Enviar</button> 
+</body>
+</html>
